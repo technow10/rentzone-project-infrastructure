@@ -1,7 +1,7 @@
 locals {
-  region       = local.region
-  project_name = local.project_name
-  environment  = local.environment
+  region       = var.region
+  project_name = var.project_name
+  environment  = var.environment
 }
 
 # Create VPC module
@@ -19,7 +19,7 @@ module "vpc" {
   private_data_subnet_az1_cidr = var.private_data_subnet_az1_cidr
   private_data_subnet_az2_cidr = var.private_data_subnet_az2_cidr
 }
-
+/*
 # Create a NAT Gateway repository
 
 module "Nat-gw" {
@@ -147,3 +147,4 @@ output "website_url" {
   value = join("", ["https://", var.record_name, ".", var.domain_name])
 
 }
+*/
