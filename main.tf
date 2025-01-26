@@ -21,7 +21,7 @@ module "vpc" {
 }
 
 # Create a NAT Gateway repository
-
+/*
 module "Nat-gw" {
   source       = "git@github.com:technow10/rentzone-project-module.git//Nat_Gateway"
   project_name = local.project_name
@@ -148,3 +148,4 @@ output "website_url" {
 
 }
 
+*/
