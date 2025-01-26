@@ -12,7 +12,7 @@ variable "private_app_subnet_az2_cidr" {}
 variable "private_data_subnet_az1_cidr" {}
 variable "private_data_subnet_az2_cidr" {}
 
-/* #create security groups variable in modules
+#create security groups variable in modules
 variable "ssh-ip" {}
 
 # Create RDS variable
@@ -37,7 +37,7 @@ variable "architecture" {}
 variable "container_image" {}
 
 # route53
-variable "record_name" {} */
+variable "record_name" {} 
 
 
 
