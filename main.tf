@@ -21,7 +21,7 @@ module "vpc" {
 }
 
 # Create a NAT Gateway repository
-/*
+
 module "Nat-gw" {
   source       = "git@github.com:technow10/rentzone-project-module.git//Nat_Gateway"
   project_name = local.project_name
@@ -38,7 +38,7 @@ module "Nat-gw" {
   private_data_subnet_az2_id = module.vpc.private_data_subnet_az2_id
 
 }
-
+/*
 # Create security group
 
 module "security-group" {
