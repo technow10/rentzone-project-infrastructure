@@ -4,7 +4,7 @@ locals {
   environment  = var.environment
 }
 
-# Create VPC module
+# Create VPC modules
 
 module "vpc" {
   source                       = "git@github.com:technow10/rentzone-project-module.git//VPC"
