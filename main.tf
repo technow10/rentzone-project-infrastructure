@@ -1,7 +1,7 @@
 locals {
-  region       = var.region
-  project_name = var.project_name
-  environment  = var.environment
+  region       = local.region
+  project_name = local.project_name
+  environment  = local.environment
 }
 
 # Create VPC module
