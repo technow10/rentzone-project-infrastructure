@@ -38,7 +38,7 @@ module "Nat-gw" {
   private_data_subnet_az2_id = module.vpc.private_data_subnet_az2_id
 
 }
-/*
+
 # Create security group
 
 module "security-group" {
