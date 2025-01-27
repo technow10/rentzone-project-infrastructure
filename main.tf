@@ -71,7 +71,7 @@ module "ssl_certificate" {
   alternative_names = var.alternative_names
 
 }
-/*
+
 # Create an ALB module
 module "application_load_balancer" {
   source                     = "git@github.com:technow10/rentzone-project-module.git//alb"
@@ -85,7 +85,7 @@ module "application_load_balancer" {
   certificate_arn            = module.ssl_certificate.certificate_arn
 
 }
-
+/*
 # create s3 bucket
 module "s3_bucket" {
   source               = "git@github.com:technow10/rentzone-project-module.git//s3"
