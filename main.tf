@@ -50,7 +50,7 @@ module "security-group" {
 }
 
 #create RDS modules
-
+/*
 # Create RDS variable
 module "rds" {
   source                       = "git@github.com:technow10/rentzone-project-module.git//rds"

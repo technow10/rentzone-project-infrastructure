@@ -14,7 +14,7 @@ variable "private_data_subnet_az2_cidr" {}
 
 #create security groups variable in modules
 variable "ssh-ip" {}
-
+/*
 # Create RDS variable
 variable "database_snapshot_identifier" {}
 variable "database_instance_class" {}
@@ -38,7 +38,8 @@ variable "container_image" {}
 
 # route53
 variable "record_name" {} 
-
+/* multiline
+   comment */
 
 
 
