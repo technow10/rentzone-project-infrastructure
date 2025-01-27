@@ -63,7 +63,7 @@ module "rds" {
   multi_az_deployment          = var.multi_az_deployment
   database_security_group_id   = module.security-group.database_security_group_id
 }
-/*
+
 # Request SSL certificate
 module "ssl_certificate" {
   source            = "git@github.com:technow10/rentzone-project-module.git//acm"
@@ -71,7 +71,7 @@ module "ssl_certificate" {
   alternative_names = var.alternative_names
 
 }
-
+/*
 # Create an ALB module
 module "application_load_balancer" {
   source                     = "git@github.com:technow10/rentzone-project-module.git//alb"

@@ -20,11 +20,11 @@ variable "database_snapshot_identifier" {}
 variable "database_instance_class" {}
 variable "db_instance_identifier" {}
 variable "multi_az_deployment" {}
-/*
+
 # Create acm variables
 variable "domain_name" {}
 variable "alternative_names" {}
-
+/*
 # create alb variable
 variable "target_type" {}
 
