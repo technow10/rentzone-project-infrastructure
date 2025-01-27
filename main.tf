@@ -50,7 +50,7 @@ module "security-group" {
 }
 
 #create RDS modules
-/*
+
 # Create RDS variable
 module "rds" {
   source                       = "git@github.com:technow10/rentzone-project-module.git//rds"
@@ -65,7 +65,7 @@ module "rds" {
   multi_az_deployment          = var.multi_az_deployment
   database_security_group_id   = module.security-group.database_security_group_id
 }
-
+/*
 # Request SSL certificate
 module "ssl_certificate" {
   source            = "git@github.com:technow10/rentzone-project-module.git//acm"
