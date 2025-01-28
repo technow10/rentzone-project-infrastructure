@@ -85,7 +85,10 @@ module "application_load_balancer" {
   certificate_arn            = module.ssl_certificate.certificate_arn
 
 }
-/*
+
+
+
+
 # create s3 bucket
 module "s3_bucket" {
   source               = "git@github.com:technow10/rentzone-project-module.git//s3"
@@ -93,7 +96,7 @@ module "s3_bucket" {
   env_file_bucket_name = var.env_file_bucket_name
   env_file_name        = var.env_file_name
 }
-
+/*
 # create ecs task execution role
 module "ecs-task" {
   source               = "git@github.com:technow10/rentzone-project-module.git//iam-role"

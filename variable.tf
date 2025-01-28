@@ -27,11 +27,11 @@ variable "alternative_names" {}
 
 # create alb variable
 variable "target_type" {}
-/*
+
 # Create s3 variables
 variable "env_file_bucket_name" {}
 variable "env_file_name" {}
-
+/*
 # ecs variable
 variable "architecture" {}
 variable "container_image" {}
